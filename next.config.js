@@ -16,8 +16,8 @@ module.exports = {
   images: {
     loader: 'custom',
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/human-next/out' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/human-next/out' : '', // Removed the trailing slash
+  basePath:'',
+  assetPrefix: '', // Removed the trailing slash
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {
       '/': { page: '/' },
