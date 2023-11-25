@@ -1,0 +1,51 @@
+{
+  "name": "human-next",
+  "version": "0.0.1",
+  "description": "Human: Demo with TypeScript/ReactJS/NextJS",
+  "sideEffects": false,
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "bugs": {
+    "url": "https://github.com/vladmandic/human-next/issues"
+  },
+  "homepage": "https://vladmandic.githunpm b.io/human/demo/index.html",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/human-next.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "browserslist": [
+    "chrome >= 90",
+    "edge >= 90",
+    "firefox >= 100",
+    "android >= 90",
+    "safari >= 15"
+  ],
+  "dependencies": {
+    "@vladmandic/human": "^3.0.1",
+    "next": "13.0.5",
+    "node": "^21.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.2",
+    "userland": "^0.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@types/node": "18.11.9",
+    "@types/offscreencanvas": "^2019.7.0",
+    "@types/react": "18.0.25",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "typescript": "4.9.3"
+  }
+}
