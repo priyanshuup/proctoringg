@@ -33,7 +33,7 @@
   "dependencies": {
     "@vladmandic/human": "^3.0.1",
     "next": "^13.0.5",
-    "node": "^21.2.0",
+    "node": "14.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "^0.31.2",
