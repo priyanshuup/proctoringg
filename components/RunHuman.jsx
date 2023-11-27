@@ -150,7 +150,7 @@ class RunHuman extends Component {
             parseInt(storedUpCount) + 1
           );
           const currentUpCount = parseInt(storedUpCount) + 1;
-          const warningThreshold = 10;
+          const warningThreshold = 5;
           if (currentUpCount >= warningThreshold) {
             this.setState((prevState) => ({
               warningCount: prevState.warningCount + 1,
