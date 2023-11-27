@@ -114,11 +114,11 @@ class RunHuman extends Component {
             this.setState((prevState) => ({
               warningCount: prevState.warningCount + 1,
             }));
-            alert(
-              `Warning: You are ${gesture} too often! (Warning Count: ${
-                this.state.warningCount + 1
-              })`
-            );
+            // alert(
+            //   `Warning: You are ${gesture} too often! (Warning Count: ${
+            //     this.state.warningCount + 1
+            //   })`
+            // );
             console.log(
               `Warning: You are looking ${gesture} too often! (Warning Count: ${
                 this.state.warningCount + 1
@@ -155,7 +155,7 @@ class RunHuman extends Component {
             this.setState((prevState) => ({
               warningCount: prevState.warningCount + 1,
             }));
-            alert("More than 1 person Detected");
+            // alert("More than 1 person Detected");
             console.log(
               `Warning: More than 1 Person Detected! (Warning Count: ${
                 this.state.warningCount + 1
@@ -178,7 +178,7 @@ class RunHuman extends Component {
           console.log(
             `Warning: No Person Detected! (Warning Count: ${this.state.warningCount + 1})`
           );
-          alert("No person Detected");
+          // alert("No person Detected");
           localStorage.setItem("noPerson", 0);
         }
       }
@@ -197,7 +197,7 @@ class RunHuman extends Component {
           this.setState((prevState) => ({
             warningCount: prevState.warningCount + 1,
           }));
-          alert("Cell Phone Detected");
+          // alert("Cell Phone Detected");
           console.log(
             `Warning: Cell Phone Detected (Warning Count: ${
               this.state.warningCount + 1
