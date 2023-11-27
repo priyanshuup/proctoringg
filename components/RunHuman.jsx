@@ -99,8 +99,8 @@ class RunHuman extends Component {
       const interpolated = this.human.next(this.human.result);
       const { gesture: interpolatedGesture, object: interpolatedObject } =
         interpolated;
-      console.log("Interpolated Gesture:", interpolatedGesture);
-      console.log("Interpolated Object:", interpolatedObject);
+      // console.log("Interpolated Gesture:", interpolatedGesture);
+      // console.log("Interpolated Object:", interpolatedObject);
       this.human.draw.canvas(this.video, this.canvas);
       // this.human.draw.all(this.canvas, interpolated);
 
